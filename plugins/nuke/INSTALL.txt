@@ -1,0 +1,9 @@
+To install the RenderBOX Launcher for Nuke
+
+Copy the renderbox folder and init.py to your Home Directory:
+		C:\Users\<UserName>\.nuke
+
+or
+
+Copy the directory to one of the paths set in the NUKE_PATH environment variable
+		

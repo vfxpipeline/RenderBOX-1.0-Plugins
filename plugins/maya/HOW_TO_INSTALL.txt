@@ -1,0 +1,4 @@
+copy renderbox folder and userSetup.mel in your Maya scripts folder.
+
+for example:
+C:\Users\HP\Documents\maya\2015-x64\scripts

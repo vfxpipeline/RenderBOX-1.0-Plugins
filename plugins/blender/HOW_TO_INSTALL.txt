@@ -1,0 +1,4 @@
+copy renderbox folder in your blender addon folder.
+
+for example:
+C:\Program Files\Blender Foundation\Blender\2.75\scripts\addons

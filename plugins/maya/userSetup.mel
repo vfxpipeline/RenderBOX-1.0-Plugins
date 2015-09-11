@@ -1,0 +1,17 @@
+if (`menu -exists "mxstudioMenu"`)
+ deleteUI-menu "mxstudioMenu" ;
+  
+
+global string $gMainWindow;
+  setParent $gMainWindow;
+  menu -tearOff 1 -label "MX Studio" mxstudioMenu;
+
+
+menuItem  -label "RenderBOX" -command "loadRenderbox";
+
+global proc loadRenderbox()
+{
+python("from renderbox import renderboxLauncher");
+python("renderboxLauncher.RenderboxLauncherClass()");
+
+}
